@@ -53,6 +53,7 @@ namespace AOI
             else
             {
                 app.UseExceptionHandler("/Error");
+
             }
 
             app.UseSerilogRequestLogging();
